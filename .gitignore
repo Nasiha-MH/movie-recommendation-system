@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+*.env
+
+# Model files (large binaries — do NOT commit to git)
+model/recommender.pkl
+model/*.pkl
+model/*.joblib
+
+# Jupyter / Colab notebooks (optional — remove if you want to track them)
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Streamlit cache
+.streamlit/
