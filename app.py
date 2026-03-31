@@ -168,7 +168,7 @@ if model_data is None:
 movies = get_movie_list(model_data)
 
 # ── OMDb API key ──────────────────────────────────────────────────────────────
-OMDB_API_KEY = os.getenv("OMDB_API_KEY", "c009b2cf")
+OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
 
 # ── search strip ──────────────────────────────────────────────────────────────
 st.markdown('<div class="search-strip">', unsafe_allow_html=True)

@@ -37,3 +37,5 @@ Thumbs.db
 
 # Streamlit cache
 .streamlit/
+.streamlit/secrets.toml
+
