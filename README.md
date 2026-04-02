@@ -4,6 +4,11 @@ A machine-learning-powered movie recommendation web app built with **Streamlit**
 
 ---
 
+
+https://github.com/user-attachments/assets/7aead046-f91f-43c8-b9c6-5b9ca80b2c9d
+
+
+
 ## ✨ Features
 
 | Feature | Details |
